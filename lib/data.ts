@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-import foodImg from "@/public/food.jpg"
-import ArImg from "@/public/Ar.png";
+import food from "@/public/food.jpg"
+import Ar from "@/public/Ar.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -52,7 +52,7 @@ export const projectsData = [
     description:
       "Transform early education with AR: engaging 2 to 5-year-olds through interactive 3D models. Foster curiosity and holistic development with immersive visual learning experiences.",
     tags: ["React", "Firebase", "MongoDB", "Tailwind"],
-    imageUrl: ArImg,
+    imageUrl: Ar,
   },
   {
     title: "Food Affairs",
@@ -60,7 +60,7 @@ export const projectsData = [
       "Experience seamless event management with our website. Effortlessly create events and facilitate"+
       " participant registration through intuitive interfaces.",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    imageUrl: foodImg,
+    imageUrl: food,
   },
 
  
